@@ -1,24 +1,24 @@
 module.exports = function () {
   // write your code here
-  let arr= [];
+  let Arr= [];
   
   for (let i = 1; i <101; i++){
   if (i%3===0 && i%5===0){
-    arr.push('FizzBuzz');
+    Arr.push('FizzBuzz');
     }
     
   else if (i%3===0){
-    arr.push('Fizz');
+    Arr.push('Fizz');
     }
     
   else if (i%5===0){
-    arr.push('Buzz');
+    Arr.push('Buzz');
     }
    
   else {
-    arr.push(i);
+    Arr.push(i);
     }
   }
   
-  return arr; 
+  return Arr; 
 }
